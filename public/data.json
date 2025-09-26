@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue",
+    "description": "User unable to log in with correct credentials.",
+    "customer": "Alice",
+    "priority": "High",
+    "status": "In- Progress",
+    "createdAt": "2025-09-26T10:15:30"
+  },
+  {
+    "id": 2,
+    "title": "Payment failure",
+    "description": "Payment not going through for Visa cards.",
+    "customer": "Bob",
+    "priority": "Medium",
+    "status": "In- Progress",
+    "createdAt": "2025-09-25T14:22:10"
+  },
+  {
+    "id": 3,
+    "title": "Bug in checkout",
+    "description": "Discount code not applied during checkout.",
+    "customer": "Charlie",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-24T09:41:50"
+  },
+  {
+    "id": 4,
+    "title": "Slow dashboard",
+    "description": "Dashboard takes too long to load.",
+    "customer": "Diana",
+    "priority": "High",
+    "status": "In- Progress",
+    "createdAt": "2025-09-23T12:30:00"
+  },
+  {
+    "id": 5,
+    "title": "Email not sent",
+    "description": "Password reset emails not being delivered.",
+    "customer": "Ethan",
+    "priority": "Medium",
+    "status": "In- Progress",
+    "createdAt": "2025-09-22T08:15:45"
+  },
+  {
+    "id": 6,
+    "title": "Profile update issue",
+    "description": "Users can’t update their profile pictures.",
+    "customer": "Fiona",
+    "priority": "Low",
+    "status": "In- Progress",
+    "createdAt": "2025-09-21T17:05:20"
+  },
+  {
+    "id": 7,
+    "title": "Crash on mobile",
+    "description": "App crashes when opened on Android 14.",
+    "customer": "George",
+    "priority": "High",
+    "status": "In- Progress",
+    "createdAt": "2025-09-20T11:55:40"
+  },
+  {
+    "id": 8,
+    "title": "Search not working",
+    "description": "Search bar shows no results even for valid items.",
+    "customer": "Hannah",
+    "priority": "Medium",
+    "status": "In- Progress",
+    "createdAt": "2025-09-19T16:42:30"
+  },
+  {
+    "id": 9,
+    "title": "UI glitch",
+    "description": "Buttons overlap on smaller screens.",
+    "customer": "Ivan",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-18T19:10:55"
+  },
+  {
+    "id": 10,
+    "title": "Notification delay",
+    "description": "Push notifications arrive 10 minutes late.",
+    "customer": "Jasmine",
+    "priority": "Medium",
+    "status": "In- Progress",
+    "createdAt": "2025-09-17T07:25:15"
+  },
+  {
+    "id": 11,
+    "title": "Broken integration with Zapier",
+    "description": "Custom action fails when trying to retrieve data.",
+    "customer": "Kelly",
+    "priority": "High",
+    "status": "In- Progress",
+    "createdAt": "2025-09-27T09:00:00"
+  },
+  {
+    "id": 12,
+    "title": "Export to CSV fails",
+    "description": "Attempting to export a large dataset results in a 500 error.",
+    "customer": "Liam",
+    "priority": "Medium",
+    "status": "In- Progress",
+    "createdAt": "2025-09-26T15:35:10"
+  },
+  {
+    "id": 13,
+    "title": "Spelling mistake on landing page",
+    "description": "The word 'guarantee' is misspelled as 'garuntee' on the pricing page.",
+    "customer": "Mia",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-25T11:05:45"
+  },
+  {
+    "id": 14,
+    "title": "API rate limit reached easily",
+    "description": "Client reports hitting the API rate limit after only 100 requests, expecting 1000.",
+    "customer": "Noah",
+    "priority": "High",
+    "status": "In- Progress",
+    "createdAt": "2025-09-24T18:20:20"
+  },
+  {
+    "id": 15,
+    "title": "Cannot cancel subscription",
+    "description": "The 'Cancel' button is missing from the billing management screen.",
+    "customer": "Olivia",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-23T07:45:00"
+  }
+]
