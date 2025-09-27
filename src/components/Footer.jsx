@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-black text-white py-10 px-20 footer-center max-w-[1920px] mx-auto">
-      <div className=" flex justify-center items-center gap-16 text-start ">
-        <aside className="flex-[1]">
-          <p className="text-2xl font-bold mb-4">CS- Ticket System</p>
+    <footer className="footer sm:footer-horizontal bg-black text-white py-10 footer-center">
+      <div className=" md:flex justify-center items-center gap-8 text-start container mx-auto ">
+        <aside className="flex-[1] max-md:text-center">
+          <p className="text-2xl font-bold mb-4 ">CS- Ticket System</p>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </aside>
 
-        <div className="flex-[1] flex justify-around">
+        <div className="flex-[1] grid grid-cols-2 xl:grid-cols-4 justify-around gap-4">
           <nav className="flex flex-col">
             <h6 className="footer-title">Company</h6>
             <a className="link link-hover">About Us</a>
@@ -42,8 +42,6 @@ const Footer = () => {
           </nav>
         </div>
       </div>
-      
-      <p className="">© 2025 CS — Ticket System. All rights reserved.</p>
     </footer>
   );
 };
