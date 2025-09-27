@@ -6,8 +6,8 @@ import { toast } from "react-toastify";
 import Aside from "./Aside";
 
 const Main = ({ showTickets }) => {
-  const ticketsInfo = use(showTickets);
-
+  const tickets = use(showTickets);
+  const [ticketsInfo, setTicketsInfo]= useState(tickets)
   const [count, setCount] = useState([]);
   const [resolved, setResolved] = useState([]);
 
@@ -25,6 +25,7 @@ const Main = ({ showTickets }) => {
     setCount((prevCount) =>
       prevCount.filter((ticket) => ticket.id !== issue.id)
     );
+    setTicketsInfo(prevCount=>prevCount.filter(ticket=>ticket.id !==issue.id))
   };
 
   return (

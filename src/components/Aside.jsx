@@ -1,11 +1,12 @@
 const Aside = ({ count, showResolved, resolved}) => {
-  
+
   return (
     <div className="mt-12 mb-4 px-4 lg:w-1/4">
       <h3 className="text-2xl font-bold mb-4">Task Status</h3>
       <div className="mb-8">
         {count.length == 0 && <p>No Pending Tasks Yet</p>}
         {count.map((oneIssue, i) => {
+          
           return (
             <div className="bg-white p-4 mb-4 shadow-sm" key={i}>
               <p className="font-semibold text-lg">{oneIssue.description}</p>
