@@ -4,12 +4,8 @@ import BottomSection from './BottomSection';
 
 import { Suspense } from 'react';
 
-const loadTickets = async ()=>{
-  const res = await fetch ('/data.json');
-  return res.json()
-}
-const Main = () => {
-  const showTickets = loadTickets()
+
+const Main = ({showTickets}) => {
   const [count, setCount]= useState([]);
 
   const countProgress=(ticket)=>{
@@ -18,11 +14,12 @@ const Main = () => {
     setCount(newCount);
   }
 
+
   return (
     <div className='max-w-[1440px] mx-auto my-12'>
       <TopSection count={count}></TopSection>
       <Suspense fallback={<p>Data is Loading...</p>}>
-      <BottomSection showTickets={showTickets} countProgress={countProgress}></BottomSection>
+      <BottomSection showTickets={showTickets} countProgress={countProgress} count={count}></BottomSection>
       </Suspense>
       
     </div>
